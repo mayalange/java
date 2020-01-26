@@ -7,7 +7,7 @@ public class practic17 {
         {
             BufferedReader rock = new BufferedReader(new InputStreamReader(System.in));
 
-            System.out.println("Если хотите закончить ввод данных, то введителоисыивм \"стоп\"");
+            System.out.println("Если хотите закончить ввод данных, то введите слово \"стоп\"");
             try (FileWriter myfile = new FileWriter("test"))
             {
 
